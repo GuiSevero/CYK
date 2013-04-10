@@ -1,0 +1,230 @@
+Terminais
+[ do ]
+[ not ]
+[ , ]
+[ or ]
+[ i ]
+[ will ]
+[ . ]
+[ ran ]
+[ that ]
+[ over ]
+[ times ]
+[ with ]
+[ just ]
+[ partners ]
+[ has ]
+[ killed ]
+[ with ]
+[ only ]
+[ shots ]
+[ of ]
+[ the ]
+[ has ]
+[ missed ]
+[ only ]
+[ percent ]
+[ his ]
+[ he ]
+[ died ]
+[ in ]
+[ this ]
+[ round ]
+[ ! ]
+[ is ]
+[ such ]
+[ a ]
+[ . ]
+[ on ]
+[ league ]
+[ legends ]
+[ like ]
+[ best ]
+[ because ]
+[ causes ]
+[ more ]
+[ damage ]
+[ than ]
+[ needs ]
+[ experience ]
+[ points ]
+[ to ]
+[ upgrade ]
+[ level ]
+[ put ]
+[ players ]
+[ my ]
+[ ignore ]
+[ list ]
+[ last ]
+[ had ]
+[ been ]
+[ invited ]
+[ play ]
+[ game ]
+[ called ]
+[ by ]
+[ killing ]
+[ creeps ]
+[ you ]
+[ gain ]
+[ an ]
+[ extra ]
+[ experience ]
+[ steal ]	
+[ cheat ]
+[ pk ]
+[ player1 ]
+[ player2 ]
+[ player3 ]
+[ call the gm ]
+[ kill you ]
+[ cry ]
+[ dungeon ]
+[ arena ]
+[ game ]
+[ three ]
+[ four ]
+[ five ]
+[ six ]
+[ thirty ]
+[ forty ]
+[ fifty ]
+[ sixty ]
+[ six ]
+[ seven ]
+[ eight ]
+[ nine ]
+[ ten ]
+[ noob ]
+[ stupid ]
+[ looser ]
+[ ezrael ]
+[ jax ]
+[ ashe ]
+[ mordekaiser ]
+[ taric ]
+[ master yii ]
+[ a thousand ]
+[ a hundred ]
+[ two hundred ]
+[ fifty-five ]
+[ fifty-eight ]
+[ sixty ]
+[ week ]
+[ month ]
+[ year ]
+[ monday ]
+[ tuesday ]
+[ wednesday ]
+[ thursday ]
+[ friday ]
+[ saturday ]
+[ sunday ]
+[ accepted ]
+[ rejected ]
+[ am thinking about ]
+[ ten ]
+[ twelve ]
+[ twenty ]
+[ shootgun ]
+[ revolver ]
+[ fireball ]
+[ league of legends ]
+[ dota ]
+[ heroes of newerth ]
+Variaveis
+[ START ]
+[ ILEGALACT ]
+[ PLAYER ]
+[ ACTION ]
+[ GAMETYPE ]
+[ NUMBER ]
+[ GOODCHAR ]
+[ BADCHAR ]
+[ PERCENT ]
+[ NUMBERDEATHS ]
+[ INSULT ]
+[ POINTS ]
+[ LEVEL ]
+[ DAY ]
+[ WEEKDAY ]
+[ CHOISE ]
+[ NUMBERCREEPS ]
+[ WEAPON ]
+[ GAME ]
+Inicial
+[ START ]
+Regras	
+[ START ] > [ do ] [ not ] [ ILEGALACT ] [ , ] [ PLAYER ] [ , ] [ or ] [ i ] [ will ] [ ACTION ] [ . ];0.1
+[ START ] > [ i ] [ ran ] [ that ] [ GAMETYPE ] [ over ] [ NUMBER ] [ times ] [ with ] [ just ] [ NUMBER ] [ partners ] [ . ];0.1
+[ START ] > [ GOODCHAR ] [ has ] [ killed ] [ BADCHAR ] [ with ] [ only ] [ NUMBER ] [ shots ] [ of ] [ the ] [ WEAPON ] [ . ]; 0.1
+[ START ] > [ PLAYER ] [ has ] [ missed ] [ only ] [ PERCENT ] [ percent ] [ of ] [ his ] [ shots ] [ . ];0.1
+[ START ] > [ he ] [ died ] [ NUMBERDEATHS ] [ times ] [ only ] [ in ] [ this ] [ round ] [ ! ] [ he ] [ is ] [ such ] [ a ] [ INSULT ] [ . ];0.1
+[ START ] > [ on ] [ league ] [ of ] [ legends ] [ , ] [ i ] [ like ] [ GOODCHAR ] [ best ] [ , ] [ because ] [ he ] [ causes ] [ PERCENT ] [ percent ] [ more ] [ damage ] [ than ] [ BADCHAR ] [ . ];0.1
+[ START ] > [ PLAYER ] [ needs ] [ a ] [ POINTS ] [ experience ] [ points ] [ to ] [ upgrade ] [ to ] [ level ] [ LEVEL ] [ . ];0.1
+[ START ] > [ i ] [ put ] [ NUMBER ] [ players ] [ on ] [ my ] [ ignore ] [ list ] [ last ] [ DAY ] [ . ];0.1
+[ START ] > [ i ] [ had ] [ been ] [ invited ] [ to ] [ play ][ a ] [ game ] [ called ] [ GAME ] [ on ] [ WEEKDAY ] [ . ] [ i ] [ CHOISE ] [ . ];0.1
+[ START ] > [ by] [  killing ] [ NUMBERCREEPS ] [ creeps ] [ , ] [ you ] [ gain ] [ an ] [ extra ] [ POINTS ] [ experience ] [ points ] [ . ];0.1
+[ ILEGALACT ] > [ steal ];0.4	
+[ ILEGALACT ] > [ cheat ];0.4
+[ ILEGALACT ] > [ pk ];0.2
+[ PLAYER ] > [ player1 ];0.4				
+[ PLAYER ] > [ player2 ];0.3
+[ PLAYER ] > [ player3 ];0.3
+[ ACTION ] > [ complain ];0.7
+[ ACTION ] > [ kill ];0.2
+[ ACTION ] > [ cry ];0.1
+[ GAMETYPE ] > [ dungeon ];0.5
+[ GAMETYPE ] > [ arena ];0.4
+[ GAMETYPE ] > [ game ];0.1
+[ NUMBER ] > [ three ];0.2
+[ NUMBER ] > [ four ];0.3
+[ NUMBER ] > [ five ];0.2
+[ NUMBER ] > [ six ];0.3
+[ PERCENT ] > [ thirty ];0.2
+[ PERCENT ] > [ forty ];0.3
+[ PERCENT ] > [ fifty ];0.2
+[ PERCENT ] > [ sixty ];0.3
+[ NUMBERDEATHS ] > [ six ];0.2
+[ NUMBERDEATHS ] > [ seven ];0.2
+[ NUMBERDEATHS ] > [ eight ];0.2
+[ NUMBERDEATHS ] > [ nine ];0.2
+[ NUMBERDEATHS ] > [ ten ];0.2
+[ INSULT ] > [ noob ];0.5
+[ INSULT ] > [ stupid ];0.2
+[ INSULT ] > [ looser ];0.3
+[ GOODCHAR ] > [ ezrael ];0.3
+[ GOODCHAR ] > [ jax ];0.3
+[ GOODCHAR ] > [ ashe ];0.4
+[ BADCHAR ] > [ mordekaiser ];0.3
+[ BADCHAR ] > [ taric ];0.3
+[ BADCHAR ] > [ masteryii ];0.4
+[ POINTS ] > [ thousand ];0.4
+[ POINTS ] > [ hundred ];0.5
+[ POINTS ] > [ ten ];0.1
+[ LEVEL ] > [ fifty-five ];0.3
+[ LEVEL ] > [ fifty-eight ];0.3
+[ LEVEL ] > [ sixty ];0.4
+[ DAY ] > [ week ];0.6
+[ DAY ] > [ month ];0.3
+[ DAY ] > [ year ];0.1
+[ WEEKDAY ] > [ monday ];0.1
+[ WEEKDAY ] > [ tuesday ];0.1
+[ WEEKDAY ] > [ wednesday ];0.1
+[ WEEKDAY ] > [ thursday ];0.1
+[ WEEKDAY ] > [ friday ];0.1
+[ WEEKDAY ] > [ saturday ];0.2
+[ WEEKDAY ] > [ sunday ];0.3
+[ CHOISE ] > [ accepted ];0.4
+[ CHOISE ] > [ rejected ];0.4
+[ CHOISE ] > [ thinking ];0.2
+[ NUMBERCREEPS ] > [ ten ];0.3
+[ NUMBERCREEPS ] > [ twelve ];0.3
+[ NUMBERCREEPS ] > [ twenty ];0.4
+[ WEAPON ] > [ shootgun ];0.3
+[ WEAPON ] > [ revolver ];0.3
+[ WEAPON ] > [ fireball ];0.4
+[ GAME ] > [ league-of-legends ];0.5
+[ GAME ] > [ dota ];0.3
+[ GAME ] > [ heroes-of-newerth ];0.2
